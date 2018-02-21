@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
-import { View, Platform } from 'react-native';
+import { View, Platform, StatusBar } from 'react-native';
 import { Container, Text, Button, Spinner } from 'native-base';
 import { Font, Constants, AppLoading, Location, Permissions } from 'expo';
 import Lottie from './src/Lottie';
 import Router from './src/Router';
+
+StatusBar.setBarStyle('light-content', true);
 
 firebase.initializeApp({
   apiKey: 'AIzaSyCvRLFX4OdB0s0Hx5Tyh9RbfMiSDDqskrc',

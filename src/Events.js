@@ -122,7 +122,7 @@ export default class Events extends Component {
           top: 100, height: 200, left: 0, width,
         },
         detailsStyle: {
-          opacity: 1, top: 0, height, width,
+          opacity: 1, top: 100, height, width,
         },
         eventHeader: true,
       }));
