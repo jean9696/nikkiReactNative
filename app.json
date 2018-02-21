@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "sdkVersion": "25.0.0",
+    "name": "Nikki",
+    "slug": "Nikki",
+    "icon": "./assets/icon.png",
+    "androidStatusBarColor": "#4b28b7",
+    "androidStatusBar": {
+      "barStyle": "light-content",
+      "backgroundColor": "#4b28b7"
+    },
+    "ios": {
+      "bundleIdentifier": "com.dessanedev.nikki"
+    },
+    "android": {
+      "package": "com.dessanedev.nikki",
+      "permissions": ["LOCATION"]
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "backgroundColor": "#6136E8"
+    }
+  },
+  "name": "Nikki",
+  "displayName": "Nikki"
+}

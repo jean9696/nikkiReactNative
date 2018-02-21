@@ -1,0 +1,9 @@
+{
+  "name": "nikkiCloudFunctions",
+  "dependencies": {
+    "fb": "^2.0.0",
+    "firebase-admin": "5.4.0",
+    "firebase-functions": "^0.8.1",
+    "geofire": "^4.1.2"
+  }
+}

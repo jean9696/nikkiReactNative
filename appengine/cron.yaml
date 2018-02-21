@@ -1,0 +1,4 @@
+cron:
+- description: get facebook events every 24 hour
+  url: /publish/facebookEventsScrapper
+  schedule: every 24 hours
