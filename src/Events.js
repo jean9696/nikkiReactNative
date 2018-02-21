@@ -161,6 +161,7 @@ export default class Events extends Component {
       <Content style={styles.container}>
         {eventHeader ?
           <AnimatableHeader
+            iosBarStyle="light-content"
             transition="backgroundColor"
             style={{
               backgroundColor: eventHeaderPlain ? '#6136e8' : 'rgba(10, 10, 10, 0.2)',
@@ -182,7 +183,7 @@ export default class Events extends Component {
               </AnimatableTitle>
             </Body>
             <Right />
-          </AnimatableHeader> : <Header style={styles.header}>
+          </AnimatableHeader> : <Header iosBarStyle="light-content" style={styles.header}>
             <Left>
               <Image source={require('../assets/logo.png')} style={{ height: 40, width: 40 }} />
             </Left>

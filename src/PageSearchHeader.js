@@ -23,7 +23,7 @@ export default class PageSearchHeader extends Component {
 
   render() {
     return (
-      <Header searchBar rounded style={{ backgroundColor: '#6136e8' }}>
+      <Header iosBarStyle="light-content" searchBar rounded style={{ backgroundColor: '#6136e8' }}>
         <Button onPressIn={this.props.onBack} transparent>
           <Icon name="arrow-back" style={{ color: '#ffffff' }} />
         </Button>
