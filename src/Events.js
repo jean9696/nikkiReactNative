@@ -119,10 +119,10 @@ export default class Events extends Component {
     }, () =>
       this.setState({
         coverPosition: {
-          top: 100, height: 200, left: 0, width,
+          top: 75, height: 200, left: 0, width,
         },
         detailsStyle: {
-          opacity: 1, top: 100, height, width,
+          opacity: 1, top: 75, height, width,
         },
         eventHeader: true,
       }));
