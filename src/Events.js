@@ -133,6 +133,7 @@ export default class Events extends Component {
       coverPosition: this.state.lastCoverPosition,
       detailsStyle: { opacity: 0, top: height, width },
       eventHeader: false,
+      selectedEvent: null,
     });
     setTimeout(() => this.setState({ selectedEvent: null }), 400);
   }
