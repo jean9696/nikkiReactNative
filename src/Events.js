@@ -199,8 +199,8 @@ export default class Events extends Component {
           coverPosition={coverPosition}
           detailsStyle={detailsStyle} location={this.props.location}
         />
-        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1 }} transition="opacity">
-          {ready && !eventHeader ? (
+        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader ? 'none' : 'flex' }} transition="opacity">
+          {ready ? (
             <AnimatableFlatList
               removeClippedSubviews animation="fadeInUp"
               data={events} keyExtractor={e => e.id} ListEmptyComponent={() =>
