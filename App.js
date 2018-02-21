@@ -6,7 +6,6 @@ import { Font, Constants, AppLoading, Location, Permissions } from 'expo';
 import Lottie from './src/Lottie';
 import Router from './src/Router';
 
-StatusBar.setBarStyle('light-content', true);
 
 firebase.initializeApp({
   apiKey: 'AIzaSyCvRLFX4OdB0s0Hx5Tyh9RbfMiSDDqskrc',
@@ -28,15 +27,18 @@ export default class App extends Component {
     };
   }
 
+  componentWillMount() {
+    StatusBar.setBarStyle('light-content', true);
+  }
+
   getLocationAsync = () => {
     this.setState({ locationLoading: true });
-    return Permissions.askAsync(Permissions.LOCATION).then(
-      () => Location.getCurrentPositionAsync({}).then((location) => {
-        this.setState({
-          location: [location.coords.latitude, location.coords.longitude],
-          locationLoading: false,
-        });
-      })).catch(() => setTimeout(() => this.setState({ locationLoading: false }), 1000));
+    return Permissions.askAsync(Permissions.LOCATION).then(() => Location.getCurrentPositionAsync({}).then((location) => {
+      this.setState({
+        location: [location.coords.latitude, location.coords.longitude],
+        locationLoading: false,
+      });
+    })).catch(() => setTimeout(() => this.setState({ locationLoading: false }), 1000));
   };
 
 
@@ -54,7 +56,7 @@ export default class App extends Component {
 
   render() {
     return this.state.ready ? (
-      <Container style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight  }}>
+      <Container style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight }}>
         {this.state.location ?
           <Router location={this.state.location} /> :
           <View style={{ flex: 1, paddingTop: 100 }}>
