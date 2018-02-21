@@ -24,7 +24,7 @@ export default class PageSearchHeader extends Component {
   render() {
     return (
       <Header searchBar rounded style={{ backgroundColor: '#6136e8' }}>
-        <Button onPressIn={this.handleBack} transparent>
+        <Button onPressIn={this.props.onBack} transparent>
           <Icon name="arrow-back" style={{ color: '#ffffff' }} />
         </Button>
         <Item>
@@ -32,7 +32,7 @@ export default class PageSearchHeader extends Component {
             <Icon name="arrow-back" style={{ color: '#6c6d74' }} />
           </Button>}
           <Input
-            onEndEditing={this.handleSearch}
+            onEndEditing={this.handleSearch} style={{ backgroundColor: '#ffffff' }}
             onChangeText={this.handleSearchChange} value={this.state.search}
             placeholder="Search"
           />
