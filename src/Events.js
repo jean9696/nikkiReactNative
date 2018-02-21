@@ -156,12 +156,6 @@ export default class Events extends Component {
     } = this.state;
     return (
       <Content style={styles.container}>
-        <EventDetails
-          selectedEvent={selectedEvent}
-          onScroll={this.handleEventScroll}
-          coverPosition={coverPosition}
-          detailsStyle={detailsStyle} location={this.props.location}
-        />
         {eventHeader ?
           <AnimatableHeader
             transition="backgroundColor"
@@ -198,6 +192,12 @@ export default class Events extends Component {
             </Right>
           </Header >
         }
+        <EventDetails
+          selectedEvent={selectedEvent}
+          onScroll={this.handleEventScroll}
+          coverPosition={coverPosition}
+          detailsStyle={detailsStyle} location={this.props.location}
+        />
         <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1 }} transition="opacity">
           {ready ? (
             <AnimatableFlatList
