@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, StyleSheet, View, Dimensions, BackHandler, Image } from 'react-native';
+import { FlatList, StyleSheet, View, Dimensions, BackHandler, Image, Platform } from 'react-native';
 import * as firebase from 'firebase';
 import GeoFire from 'geofire';
 import getOr from 'lodash/fp/getOr';
@@ -220,7 +220,7 @@ export default class Events extends Component {
 }}
             >
               <Lottie style={{ width, height: 150, marginTop: 50 }} name="search" />
-              <Text style={{ textAlign: 'center', color: '#6136e8', marginTop: 20 }}>Looking for event nearby</Text>
+              <Text style={{ textAlign: 'center', color: '#6136e8', marginTop: Platform.OS === 'ios' ? 100 : 20 }}>Looking for event nearby</Text>
             </View>
           )}
         </Animatable.View>
