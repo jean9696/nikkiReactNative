@@ -161,8 +161,9 @@ export default class Events extends Component {
             transition="backgroundColor"
             style={{
               backgroundColor: eventHeaderPlain ? '#6136e8' : 'rgba(10, 10, 10, 0.2)',
-              zIndex: 3,
+              zIndex: 10,
               position: 'absolute',
+              top: 0,
             }} noShadow
           >
             <Left>
@@ -198,7 +199,7 @@ export default class Events extends Component {
           coverPosition={coverPosition}
           detailsStyle={detailsStyle} location={this.props.location}
         />
-        <Animatable.View style={{ height: height - 80, zIndex: 1, visible: eventHeader ? 0 : 1 }} transition="opacity">
+        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1 }} transition="opacity">
           {ready ? (
             <AnimatableFlatList
               removeClippedSubviews animation="fadeInUp"
