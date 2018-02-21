@@ -163,8 +163,8 @@ export default class Events extends Component {
           detailsStyle={detailsStyle} location={this.props.location}
         />
         {eventHeader ?
-          <AnimatableHeader
-            transition="backgroundColor"
+          <Header
+            transition={['backgroundColor', 'zIndex']}
             style={{
               backgroundColor: eventHeaderPlain ? '#6136e8' : 'rgba(10, 10, 10, 0.2)',
               zIndex: 3,
@@ -184,7 +184,7 @@ export default class Events extends Component {
               </AnimatableTitle>
             </Body>
             <Right />
-          </AnimatableHeader> : <Header style={styles.header}>
+          </Header> : <Header style={styles.header}>
             <Left>
               <Image source={require('../assets/logo.png')} style={{ height: 40, width: 40 }} />
             </Left>
