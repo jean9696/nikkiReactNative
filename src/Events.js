@@ -116,13 +116,14 @@ export default class Events extends Component {
       coverPosition,
       detailsStyle: { opacity: 0, top: height },
       lastCoverPosition: coverPosition,
+      eventHeaderPlain: Platform.OS === 'ios',
     }, () =>
       this.setState({
         coverPosition: {
-          top: 75, height: 200, left: 0, width,
+          top: 68, height: 200, left: 0, width,
         },
         detailsStyle: {
-          opacity: 1, top: 75, height, width,
+          opacity: 1, top: 68, height, width,
         },
         eventHeader: true,
       }));
@@ -138,10 +139,12 @@ export default class Events extends Component {
   }
 
   handleEventScroll = (event) => {
-    if (event.nativeEvent.contentOffset.y > 120 && !this.state.eventHeaderPlain) {
-      this.setState({ eventHeaderPlain: true });
-    } else if (this.state.eventHeaderPlain && event.nativeEvent.contentOffset.y <= 120) {
-      this.setState({ eventHeaderPlain: false });
+    if (Platform.OS !== 'ios') {
+      if (event.nativeEvent.contentOffset.y > 120 && !this.state.eventHeaderPlain) {
+        this.setState({ eventHeaderPlain: true });
+      } else if (this.state.eventHeaderPlain && event.nativeEvent.contentOffset.y <= 120) {
+        this.setState({ eventHeaderPlain: false });
+      }
     }
   }
 
@@ -199,7 +202,7 @@ export default class Events extends Component {
           coverPosition={coverPosition}
           detailsStyle={detailsStyle} location={this.props.location}
         />
-        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader ? 'none' : 'flex' }} transition="opacity">
+        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader && Platform.OS === 'ios' ? 'none' : 'flex' }} transition="opacity">
           {ready ? (
             <AnimatableFlatList
               removeClippedSubviews animation="fadeInUp"
