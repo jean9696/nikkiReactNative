@@ -32,7 +32,7 @@ export default class PageSearchHeader extends Component {
             <Icon name="arrow-back" style={{ color: '#6c6d74' }} />
           </Button>}
           <Input
-            onEndEditing={this.handleSearch} style={{ backgroundColor: '#ffffff' }}
+            onEndEditing={this.handleSearch}
             onChangeText={this.handleSearchChange} value={this.state.search}
             placeholder="Search"
           />
