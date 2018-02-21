@@ -25,7 +25,7 @@ export default class PageSearchHeader extends Component {
     return (
       <Header searchBar rounded style={{ backgroundColor: '#6136e8' }}>
         <Button onPressIn={this.handleBack} transparent>
-          <Icon name="arrow-back" style={{ color: '#6136e8' }} />
+          <Icon name="arrow-back" style={{ color: '#ffffff' }} />
         </Button>
         <Item>
           {Platform.OS === 'android' && <Button onPressIn={this.props.onBack} transparent style={{ paddingBottom: 10 }}>
@@ -41,7 +41,7 @@ export default class PageSearchHeader extends Component {
           </Button>}
         </Item>
         <Button transparent onPress={this.handleSearch}>
-          <Text style={{ color: '#6136e8' }}>Search</Text>
+          <Text style={{ color: '#ffffff' }}>Search</Text>
         </Button>
       </Header>
     );
