@@ -216,10 +216,10 @@ export default class Events extends Component {
             />
           ) : (
             <View style={{
- flex: 1, justifyContent: 'center', alignContent: 'center', flexDirection: 'column',
+ flex: 1,
 }}
             >
-              <Lottie style={{ width, height: 150, top: 0 }} name="search" />
+              <Lottie style={{ width, height: 150, marginTop: 50 }} name="search" />
               <Text style={{ textAlign: 'center', color: '#6136e8', marginTop: 20 }}>Looking for event nearby</Text>
             </View>
           )}
