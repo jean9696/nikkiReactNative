@@ -111,23 +111,21 @@ export default class Events extends Component {
 
 
   handleSelect = (selectedEvent, coverPosition) => {
-    if (!this.state.selectedEvent) {
+    this.setState({
+      selectedEvent,
+      coverPosition,
+      detailsStyle: { opacity: 0, top: height },
+      lastCoverPosition: coverPosition,
+    }, () =>
       this.setState({
-        selectedEvent,
-        coverPosition,
-        detailsStyle: { opacity: 0, top: height },
-        lastCoverPosition: coverPosition,
-      }, () =>
-        this.setState({
-          coverPosition: {
-            top: 100, height: 200, left: 0, width,
-          },
-          detailsStyle: {
-            opacity: 1, top: 100, height, width,
-          },
-          eventHeader: true,
-        }));
-    }
+        coverPosition: {
+          top: 100, height: 200, left: 0, width,
+        },
+        detailsStyle: {
+          opacity: 1, top: 100, height, width,
+        },
+        eventHeader: true,
+      }));
   }
 
   handleBack = () => {
@@ -200,7 +198,7 @@ export default class Events extends Component {
           coverPosition={coverPosition}
           detailsStyle={detailsStyle} location={this.props.location}
         />
-        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1 }} transition="opacity">
+        <Animatable.View style={{ height: height - 80, zIndex: 1, visible: eventHeader ? 0 : 1 }} transition="opacity">
           {ready ? (
             <AnimatableFlatList
               removeClippedSubviews animation="fadeInUp"
@@ -218,7 +216,7 @@ export default class Events extends Component {
             />
           ) : (
             <View style={{
- flex: 1,
+ flex: 1
 }}
             >
               <Lottie style={{ width, height: 150, marginTop: 50 }} name="search" />
