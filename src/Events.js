@@ -111,21 +111,23 @@ export default class Events extends Component {
 
 
   handleSelect = (selectedEvent, coverPosition) => {
-    this.setState({
-      selectedEvent,
-      coverPosition,
-      detailsStyle: { opacity: 0, top: height },
-      lastCoverPosition: coverPosition,
-    }, () =>
+    if (!this.state.selectedEvent) {
       this.setState({
-        coverPosition: {
-          top: 100, height: 200, left: 0, width,
-        },
-        detailsStyle: {
-          opacity: 1, top: 100, height, width,
-        },
-        eventHeader: true,
-      }));
+        selectedEvent,
+        coverPosition,
+        detailsStyle: { opacity: 0, top: height },
+        lastCoverPosition: coverPosition,
+      }, () =>
+        this.setState({
+          coverPosition: {
+            top: 100, height: 200, left: 0, width,
+          },
+          detailsStyle: {
+            opacity: 1, top: 100, height, width,
+          },
+          eventHeader: true,
+        }));
+    }
   }
 
   handleBack = () => {
@@ -133,7 +135,6 @@ export default class Events extends Component {
       coverPosition: this.state.lastCoverPosition,
       detailsStyle: { opacity: 0, top: height, width },
       eventHeader: false,
-      selectedEvent: null,
     });
     setTimeout(() => this.setState({ selectedEvent: null }), 400);
   }
