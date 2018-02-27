@@ -161,6 +161,7 @@ export default class Events extends Component {
       <Content style={styles.container}>
         {eventHeader ?
           <AnimatableHeader
+            androidStatusBarColor="#4b28b7"
             iosBarStyle="light-content"
             transition="backgroundColor"
             style={{
@@ -183,7 +184,7 @@ export default class Events extends Component {
               </AnimatableTitle>
             </Body>
             <Right />
-          </AnimatableHeader> : <Header iosBarStyle="light-content" style={styles.header}>
+          </AnimatableHeader> : <Header androidStatusBarColor="#4b28b7" iosBarStyle="light-content" style={styles.header}>
             <Left>
               <Image source={require('../assets/logo.png')} style={{ height: 40, width: 40 }} />
             </Left>
@@ -224,8 +225,8 @@ export default class Events extends Component {
  flex: 1
 }}
             >
-              <Lottie style={{ width, height: 150, marginTop: 50 }} name="search" />
-              <Text style={{ textAlign: 'center', color: '#6136e8', marginTop: Platform.OS === 'ios' ? 100 : 20 }}>Looking for event nearby</Text>
+              <Lottie style={{ width, height: 150, marginTop: 100 }} name="search" />
+              <Text style={{ textAlign: 'center', color: '#6136e8', marginTop: Platform.OS === 'ios' ? 150 : 20 }}>Looking for event nearby</Text>
             </View>
           )}
         </Animatable.View>
