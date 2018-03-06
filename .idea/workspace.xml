@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="69a4d25a-6bc8-4a01-8f5a-4ddaaae13220" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/App.js" afterPath="$PROJECT_DIR$/App.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EventDetails.js" afterPath="$PROJECT_DIR$/src/EventDetails.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Events.js" afterPath="$PROJECT_DIR$/src/Events.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -34,8 +32,8 @@
       <file leaf-file-name="Events.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+            <state relative-caret-position="544">
+              <caret line="128" column="111" lean-forward="false" selection-start-line="128" selection-start-column="111" selection-end-line="128" selection-end-column="111" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -129,9 +127,9 @@
       <find>scrollEnabled</find>
       <find>container</find>
       <find>eventHeader</find>
-      <find>red</find>
       <find>top</find>
       <find>Content</find>
+      <find>red</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -283,12 +281,12 @@
       <workItem from="1519814985390" duration="2161000" />
       <workItem from="1520017231995" duration="19000" />
       <workItem from="1520117210675" duration="336000" />
-      <workItem from="1520369796713" duration="8845000" />
+      <workItem from="1520369796713" duration="9417000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138967000" />
+    <option name="totallyTimeSpent" value="139539000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -657,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/EventDetails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="121" column="88" lean-forward="false" selection-start-line="121" selection-start-column="88" selection-end-line="121" selection-end-column="88" />
-          <folding>
-            <marker date="1520378435830" expanded="true" signature="5786:5812" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -685,10 +673,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/EventDetails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="121" column="88" lean-forward="false" selection-start-line="121" selection-start-column="88" selection-end-line="121" selection-end-column="88" />
+          <folding>
+            <marker date="1520378435830" expanded="true" signature="5786:5812" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="166" column="34" lean-forward="false" selection-start-line="166" selection-start-column="34" selection-end-line="166" selection-end-column="34" />
+        <state relative-caret-position="544">
+          <caret line="128" column="111" lean-forward="false" selection-start-line="128" selection-start-column="111" selection-end-line="128" selection-end-column="111" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

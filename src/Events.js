@@ -126,7 +126,7 @@ export default class Events extends Component {
           top: Platform.OS === 'ios' ? 65 : 0, height: 200, left: 0, width,
         },
         detailsStyle: {
-          opacity: 1, top: Platform.OS === 'ios' ? 65 : 0, height, width,
+          opacity: 1, top: Platform.OS === 'ios' ? 65 : 0, height: Platform.OS === 'ios' ? height - 65 : height, width,
         },
         eventHeader: true,
       }));
