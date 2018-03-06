@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a4d25a-6bc8-4a01-8f5a-4ddaaae13220" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PageSearchHeader.js" afterPath="$PROJECT_DIR$/src/PageSearchHeader.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -120,8 +119,8 @@
       <file leaf-file-name="PageSearchHeader.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PageSearchHeader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+            <state relative-caret-position="416">
+              <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -322,12 +321,12 @@
       <workItem from="1519814985390" duration="2161000" />
       <workItem from="1520017231995" duration="19000" />
       <workItem from="1520117210675" duration="336000" />
-      <workItem from="1520369796713" duration="4865000" />
+      <workItem from="1520369796713" duration="5161000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134987000" />
+    <option name="totallyTimeSpent" value="135283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -681,7 +680,7 @@
         <state relative-caret-position="-480">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -748,8 +747,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PageSearchHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+        <state relative-caret-position="416">
+          <caret line="34" column="21" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
           <folding />
         </state>
       </provider>
