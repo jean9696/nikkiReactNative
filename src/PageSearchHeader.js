@@ -27,12 +27,11 @@ export default class PageSearchHeader extends Component {
         <Button onPressIn={this.props.onBack} transparent style={{ width: 50, position: 'absolute' }}>
           <Icon name="arrow-back" style={{ color: '#ffffff' }} />
         </Button>
-        <Item>
+        <Item style={{ marginLeft: 100 }}>
           {Platform.OS === 'android' && <Button onPressIn={this.props.onBack} transparent style={{ paddingBottom: 10 }}>
             <Icon name="arrow-back" style={{ color: '#6c6d74' }} />
           </Button>}
           <Input
-            style={{ marginLeft: 100 }}
             onEndEditing={this.handleSearch}
             onChangeText={this.handleSearchChange} value={this.state.search}
             placeholder="Search"
