@@ -26,6 +26,7 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
+    paddingBottom: 0,
   },
 });
 
@@ -158,7 +159,7 @@ export default class Events extends Component {
       coverPosition, detailsStyle, currentCity,
     } = this.state;
     return (
-      <Content style={styles.container}>
+      <View style={styles.container}>
         {eventHeader ?
           <AnimatableHeader
             androidStatusBarColor="#4b28b7"
@@ -230,7 +231,7 @@ export default class Events extends Component {
             </View>
           )}
         </Animatable.View>
-      </Content>
+      </View>
     );
   }
 }
