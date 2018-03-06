@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, View, Dimensions, BackHandler, Linking, TouchableOpacity } from 'react-native';
+import { FlatList, View, Dimensions, BackHandler, Linking, TouchableOpacity, Platform } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import getOr from 'lodash/fp/getOr';
 import GeoFire from 'geofire';
@@ -98,7 +98,7 @@ export default class PageSearch extends Component {
     return (
       <Content>
         <PageSearchHeader onSearch={this.handleSearch} onBack={this.handleBack} />
-        <View style={{ flex: 1, height: height - 80 }}>
+        <View style={{ flex: 1, height: Platform.OS === 'ios' ? height : height - 80 }}>
           {this.state.loading ?
             <View style={{ height: 150, marginTop: 100 }}><Spinner /></View> :
             <List>

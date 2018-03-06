@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="69a4d25a-6bc8-4a01-8f5a-4ddaaae13220" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Events.js" afterPath="$PROJECT_DIR$/src/Events.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/PageSearch.js" afterPath="$PROJECT_DIR$/src/PageSearch.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,14 +28,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Events.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Events.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Events.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="488">
-              <caret line="209" column="74" lean-forward="false" selection-start-line="209" selection-start-column="74" selection-end-line="209" selection-end-column="74" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="64">
+              <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="77" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,14 +70,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PageSearch.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PageSearch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PageSearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
+            <state relative-caret-position="64">
+              <caret line="2" column="85" lean-forward="false" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
               <folding>
-                <element signature="e#0#41#0" expanded="true" />
-                <marker date="1519817476790" expanded="true" signature="3072:5234" ph="..." />
+                <marker date="1520380088342" expanded="true" signature="3082:5277" ph="..." />
               </folding>
             </state>
           </provider>
@@ -148,12 +145,12 @@
         <option value="$PROJECT_DIR$/appengine/cron.yaml" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.json" />
-        <option value="$PROJECT_DIR$/src/PageSearch.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/PageSearchHeader.js" />
         <option value="$PROJECT_DIR$/src/EventDetails.js" />
         <option value="$PROJECT_DIR$/App.js" />
         <option value="$PROJECT_DIR$/src/Events.js" />
+        <option value="$PROJECT_DIR$/src/PageSearch.js" />
       </list>
     </option>
   </component>
@@ -280,12 +277,12 @@
       <workItem from="1519814985390" duration="2161000" />
       <workItem from="1520017231995" duration="19000" />
       <workItem from="1520117210675" duration="336000" />
-      <workItem from="1520369796713" duration="9602000" />
+      <workItem from="1520369796713" duration="9657000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139724000" />
+    <option name="totallyTimeSpent" value="139779000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -348,9 +345,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1024">
           <caret line="42" column="19" lean-forward="false" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -382,9 +377,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1920">
           <caret line="67" column="50" lean-forward="true" selection-start-line="67" selection-start-column="50" selection-end-line="67" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -617,17 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/PageSearch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="99" column="20" lean-forward="false" selection-start-line="99" selection-start-column="20" selection-end-line="99" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <marker date="1519817476790" expanded="true" signature="3072:5234" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/native-base/src/theme/components/Content.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -684,10 +666,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Events.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="488">
-          <caret line="209" column="74" lean-forward="false" selection-start-line="209" selection-start-column="74" selection-end-line="209" selection-end-column="74" />
+        <state relative-caret-position="64">
+          <caret line="2" column="77" lean-forward="false" selection-start-line="2" selection-start-column="69" selection-end-line="2" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PageSearch.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="2" column="85" lean-forward="false" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1520380088342" expanded="true" signature="3082:5277" ph="..." />
           </folding>
         </state>
       </provider>
