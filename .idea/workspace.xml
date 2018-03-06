@@ -73,10 +73,11 @@
       <file leaf-file-name="PageSearch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/PageSearch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="2" column="85" lean-forward="false" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
+            <state relative-caret-position="264">
+              <caret line="100" column="75" lean-forward="false" selection-start-line="100" selection-start-column="75" selection-end-line="100" selection-end-column="75" />
               <folding>
-                <marker date="1520380088342" expanded="true" signature="3082:5277" ph="..." />
+                <element signature="e#0#41#0" expanded="true" />
+                <marker date="1520380176405" expanded="true" signature="3082:5282" ph="..." />
               </folding>
             </state>
           </provider>
@@ -97,7 +98,6 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>PageSearch</find>
-      <find>Platform</find>
       <find>firebase</find>
       <find>AnimatableFlatList</find>
       <find>setState</find>
@@ -126,6 +126,7 @@
       <find>red</find>
       <find>Content</find>
       <find>container</find>
+      <find>Platform</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -277,12 +278,12 @@
       <workItem from="1519814985390" duration="2161000" />
       <workItem from="1520017231995" duration="19000" />
       <workItem from="1520117210675" duration="336000" />
-      <workItem from="1520369796713" duration="9657000" />
+      <workItem from="1520369796713" duration="9746000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139779000" />
+    <option name="totallyTimeSpent" value="139868000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1060" extended-state="6" />
@@ -674,10 +675,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/PageSearch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="2" column="85" lean-forward="false" selection-start-line="2" selection-start-column="85" selection-end-line="2" selection-end-column="85" />
+        <state relative-caret-position="264">
+          <caret line="100" column="75" lean-forward="false" selection-start-line="100" selection-start-column="75" selection-end-line="100" selection-end-column="75" />
           <folding>
-            <marker date="1520380088342" expanded="true" signature="3082:5277" ph="..." />
+            <element signature="e#0#41#0" expanded="true" />
+            <marker date="1520380176405" expanded="true" signature="3082:5282" ph="..." />
           </folding>
         </state>
       </provider>

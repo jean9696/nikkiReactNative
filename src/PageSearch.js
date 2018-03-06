@@ -98,7 +98,7 @@ export default class PageSearch extends Component {
     return (
       <Content>
         <PageSearchHeader onSearch={this.handleSearch} onBack={this.handleBack} />
-        <View style={{ flex: 1, height: Platform.OS === 'ios' ? height : height - 80 }}>
+        <View style={{ flex: 1, height: Platform.OS === 'ios' ? height - 65 : height - 80 }}>
           {this.state.loading ?
             <View style={{ height: 150, marginTop: 100 }}><Spinner /></View> :
             <List>
