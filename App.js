@@ -56,7 +56,7 @@ export default class App extends Component {
 
   render() {
     return this.state.ready ? (
-      <Container style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight }}>
+      <View style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight, flex: 1 }}>
         {this.state.location ?
           <Router location={this.state.location} /> :
           <View style={{ flex: 1, paddingTop: 100 }}>
@@ -75,7 +75,7 @@ export default class App extends Component {
             </View>
           </View>
         }
-      </Container>
+      </View>
     ) : (
       <AppLoading
         startAsync={this.loadAsync}

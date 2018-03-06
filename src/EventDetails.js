@@ -119,7 +119,7 @@ export default class EventDetails extends Component { //eslint-disable-line
         {selectedEvent && <Animatable.View
           transition={['opacity', 'top']} duration={0}
           style={{
-            position: 'absolute', backgroundColor: null, display: 'flex', zIndex: 2, ...detailsStyle,
+            position: 'absolute', backgroundColor: null, display: 'flex', height: 2000, zIndex: 2, ...detailsStyle,
           }}
         >
           <ScrollView onScroll={onScroll}>
