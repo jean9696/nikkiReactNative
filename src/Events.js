@@ -207,7 +207,7 @@ export default class Events extends Component {
           coverPosition={coverPosition}
           detailsStyle={detailsStyle} location={this.props.location}
         />
-        <Animatable.View style={{ height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader && Platform.OS === 'ios' ? 'none' : 'flex' }} transition="opacity">
+        <Animatable.View style={{ height: Platform.OS === 'ios' ? height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader && Platform.OS === 'ios' ? 'none' : 'flex' }} transition="opacity">
           {ready ? (
             <AnimatableFlatList
               removeClippedSubviews animation="fadeInUp"
