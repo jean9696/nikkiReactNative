@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import { FlatList, View, Dimensions, BackHandler } from 'react-native';
+import { FlatList, View, Dimensions, BackHandler, Linking, TouchableOpacity } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import getOr from 'lodash/fp/getOr';
 import GeoFire from 'geofire';
@@ -68,7 +68,6 @@ export default class PageSearch extends Component {
     this.setState({ loading: true });
     const response = await fetch(`https://graph.facebook.com/search?q=${search}&type=page&fields=picture,name,location,description&access_token=${accessToken}`);
     const data = getOr([], 'data')(JSON.parse(response._bodyInit)); //eslint-disable-line
-    console.log(search)//eslint-disable-line
     this.setState({
       data: search.length > 0 ? data : Object.values(this.state.registeredPages),
       loading: false,
@@ -77,8 +76,12 @@ export default class PageSearch extends Component {
 
   handleBack = () => this.props.changeRoute(Events);
 
+  handlePagePress = (pageId) => {
+    Linking.openURL(`https://www.facebook.com/${pageId}/`);
+  }
 
-  handleAddPage = (page) => {
+  handleAddPage = (page, e) => {
+    e.stopPropagation();
     this.setState({
       registeredPages: {
         ...this.state.registeredPages,
@@ -115,18 +118,23 @@ export default class PageSearch extends Component {
               )}
                 renderItem={({ item }) => (
                   <ListItem>
-                    <Thumbnail square size={80} source={{ uri: getOr(null, 'picture.data.url')(item) }} />
+                    <TouchableOpacity
+                      activeOpacity={0.8}
+                      onPress={() => this.handlePagePress(item.id)}
+                    >
+                      <Thumbnail square size={80} source={{ uri: getOr(null, 'picture.data.url')(item) }} />
+                    </TouchableOpacity>
                     <Body>
-                      <Text>{getOr(null, 'name')(item)}</Text>
-                      <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'location.city')(item)}</Text>
-                      <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'description')(item)}</Text>
+                    <Text>{getOr(null, 'name')(item)}</Text>
+                    <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'location.city')(item)}</Text>
+                    <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'description')(item)}</Text>
                     </Body>
                     <Right>
                       {this.isActive(item) && <Icon name="beer" style={{ color: '#6136e8', marginRight: 15 }} />}
                       {!this.isActive(item) &&
-                        <Button transparent onPress={() => this.handleAddPage(item)}>
-                          <Icon name="add" style={{ color: '#6c6d74' }} />
-                        </Button>
+                      <Button transparent onPress={e => this.handleAddPage(item, e)}>
+                        <Icon name="add" style={{ color: '#6c6d74' }} />
+                      </Button>
                       }
                     </Right>
                   </ListItem>

@@ -124,7 +124,7 @@ export default class EventDetails extends Component { //eslint-disable-line
         >
           <ScrollView onScroll={onScroll}>
             <View style={{ height: 200 }} />
-            <View style={{ backgroundColor: 'white', minHeight: height - 200 }}>
+            <View style={{ backgroundColor: 'white', minHeight: height }}>
               <TouchableWithoutFeedback onPress={this.handleCoverPress}>
                 <View><Text style={styles.title}>{selectedEvent.name}</Text></View>
               </TouchableWithoutFeedback>
