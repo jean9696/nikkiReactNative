@@ -33,7 +33,7 @@ export default class PageSearchHeader extends Component {
           </Button>}
           {Platform.OS === 'ios' && <Icon name="ios-search" />}
           <Input
-            onEndEditing={this.handleSearch} style={Platform.OS === 'android' ? null : { backgroundColor: 'white', borderRadius: 20, width: 1000 }}
+            onEndEditing={this.handleSearch}
             onChangeText={this.handleSearchChange} value={this.state.search}
             placeholder="Search"
           />
