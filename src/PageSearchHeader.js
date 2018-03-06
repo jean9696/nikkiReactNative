@@ -24,10 +24,10 @@ export default class PageSearchHeader extends Component {
   render() {
     return (
       <Header iosBarStyle="light-content" androidStatusBarColor="#4b28b7" searchBar rounded style={{ backgroundColor: '#6136e8' }}>
-        <Button onPressIn={this.props.onBack} transparent style={{ width: 50, position: 'absolute' }}>
-          <Icon name="arrow-back" style={{ color: '#ffffff' }} />
+        <Button onPressIn={this.props.onBack} transparent >
+          <Icon name="arrow-back" style={{ color: '#ffffff', width: 10 }} />
         </Button>
-        <Item style={{ marginLeft: 100 }}>
+        <Item>
           {Platform.OS === 'android' && <Button onPressIn={this.props.onBack} transparent style={{ paddingBottom: 10 }}>
             <Icon name="arrow-back" style={{ color: '#6c6d74' }} />
           </Button>}
