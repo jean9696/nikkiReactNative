@@ -125,9 +125,9 @@ export default class PageSearch extends Component {
                       <Thumbnail square size={80} source={{ uri: getOr(null, 'picture.data.url')(item) }} />
                     </TouchableOpacity>
                     <Body>
-                    <Text>{getOr(null, 'name')(item)}</Text>
-                    <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'location.city')(item)}</Text>
-                    <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'description')(item)}</Text>
+                      <Text>{getOr(null, 'name')(item)}</Text>
+                      <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'location.city')(item)}</Text>
+                      <Text note numberOfLines={1} ellipsizeMode="tail">{getOr(null, 'description')(item)}</Text>
                     </Body>
                     <Right>
                       {this.isActive(item) && <Icon name="beer" style={{ color: '#6136e8', marginRight: 15 }} />}
