@@ -21,7 +21,6 @@
   "dependencies": {
     "@expo/vector-icons": "^6.2.2",
     "expo": "^25.0.0",
-    "firebase": "^4.9.1",
     "geofire": "^4.1.2",
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
@@ -30,6 +29,7 @@
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-animatable": "^1.2.4",
+    "react-native-firebase": "^3.3.0",
     "react-native-maps": "^0.20.1"
   }
 }

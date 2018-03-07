@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\1ed4b359235e031f690001079d95be618ae65176\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="289cad663c288ce965463cb9ece8b35cc7de0fac">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_122b4115fd9ed7f3506752a54bd93109fbd59068\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\e59beb23124f0bac13eb194bfefa0e602ec1675f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4438b1a7848a7c571122ba618aa1304514aabee6">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_20c3f858a78dac67171d49e135bdd36402c424c9\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\049eb491296f6eae82514db040c7d04c37d50177\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5f47ede9561595584dca71104baa0fecb36dda87">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_44961b05543dcf8e90972876511d94307d9bc154\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\incremental-classes\dev19\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ddf1713535f00e0ac75d9e433bd571fc0f4753c1">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10000\instant-run-bootstrap_693975bb496e7fe5248b5d53081b113f32ab2a68\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\06bb6b34a6bf31aa67a9dd4c13445662a1279a57\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3f8f779a22cbb4c4d0759467a4f1011bb5252970">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ed9811470a24698da0462a8430c8c161ee847f82\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\540e3ac4a746f8a413529abca00216e35125f7ca\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7fd91ec2730fdaa82906aad32a3f3d3e574bae56">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_186827d04bc9e5b75427e8820bfdfdd51bdbbb51\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5ffe8867f51cfc726e9fb21db1e5b6962ebf25a0">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_8b1873322afb5f49a358705165b9d94e011efb7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\incremental-runtime-classes\dev19\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10000\instant-run_b9137cc99da1c7a65a38c80957ea9a72a27d99dc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e56f31b23ddb067f95f01255295167db7c798612">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_b51dac48cdadd99200980154549ef7ed94f30e9b\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\cde446033fc8e94d6b51e9a1ff83b0bf0cfe4b0b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="15e59454416c6341bd3ed2533b585cd340682dd1">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_f3fba140174b24837dc8dc5046ecf4c388bd4373\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\7c08502fa3f6bf4cab7528117f6dfd499295f708\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="03df48d3713661d66ad024b1e406259a4c26fcac">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_15ade3a1a06ebb846abedc81d37819a1d7e9ec77\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\cc890cdc3c57c51ec739b6c33c45eccf5a445521\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b4671be3d1288bf4e5f527cd33e42909fbe4ecc6">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_492024521b9fc3341aebab9b7a19c3dc994de9a6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Jean\.android\build-cache\38ead6290861393001bfbea750d485b69861280a\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="ec9104b53aee77dfcfd2fe1c4add23ff7c4df55f">
+        <dex dex="C:\Users\Jean\react-native\nikki\android\app\build\intermediates\transforms\dex\dev19\debug\folders\1000\10\classes_ed1c09d6af12286527317bdfca357d407227ec38\classes.dex" />
+    </item>
+
+</items>

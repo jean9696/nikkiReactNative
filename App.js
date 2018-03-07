@@ -1,20 +1,9 @@
 import React, { Component } from 'react';
-import * as firebase from 'firebase';
 import { View, Platform, StatusBar } from 'react-native';
 import { Container, Text, Button, Spinner } from 'native-base';
 import { Font, Constants, AppLoading, Location, Permissions } from 'expo';
 import Lottie from './src/Lottie';
 import Router from './src/Router';
-
-
-firebase.initializeApp({
-  apiKey: 'AIzaSyCvRLFX4OdB0s0Hx5Tyh9RbfMiSDDqskrc',
-  authDomain: 'nikki-8d0a5.firebaseapp.com',
-  databaseURL: 'https://nikki-8d0a5.firebaseio.com',
-  projectId: 'nikki-8d0a5',
-  storageBucket: 'nikki-8d0a5.appspot.com',
-  messagingSenderId: '916258383936',
-});
 
 
 export default class App extends Component {
@@ -59,7 +48,7 @@ export default class App extends Component {
       <View style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight, flex: 1 }}>
         {this.state.location ?
           <Router location={this.state.location} /> :
-          <View style={{ flex: 1, paddingTop: 100 }}>
+          <View style={{ flex: 1, paddingTop: 100, backgroundColor: 'white' }}>
             <Text style={{ marginBottom: 30, color: '#6136e8', textAlign: 'center' }}>
               Please allow us to access your position
             </Text>
@@ -70,7 +59,7 @@ export default class App extends Component {
             >
               {this.state.locationLoading ? <Spinner /> :
               <Button style={{ marginTop: 30, backgroundColor: '#6136e8' }} onPress={this.getLocationAsync}>
-                <Text>Try again</Text>
+                <Text>Try again, tamer</Text>
               </Button>}
             </View>
           </View>

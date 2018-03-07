@@ -1,0 +1,7 @@
+#Wed Mar 07 17:38:33 GMT 2018
+base.0=C\:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\transforms\\dex\\dev19\\debug\\folders\\1000\\10000\\instant-run_b9137cc99da1c7a65a38c80957ea9a72a27d99dc
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\transforms\\dex\\dev19\\debug\\folders\\1000\\10000\\instant-run-bootstrap_693975bb496e7fe5248b5d53081b113f32ab2a68\\classes.dex
+base.1=C\:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\transforms\\dex\\dev19\\debug\\folders\\1000\\10000\\instant-run-bootstrap_693975bb496e7fe5248b5d53081b113f32ab2a68
+file.0=C\:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\transforms\\dex\\dev19\\debug\\folders\\1000\\10000\\instant-run_b9137cc99da1c7a65a38c80957ea9a72a27d99dc\\classes.dex

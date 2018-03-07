@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    }
+]

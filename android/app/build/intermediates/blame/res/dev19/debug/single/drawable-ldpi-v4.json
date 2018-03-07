@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-ldpi-v4\\exo_controls_pause.png",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\drawable-ldpi-v4\\exo_controls_pause.png"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-ldpi-v4\\exo_controls_play.png",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\drawable-ldpi-v4\\exo_controls_play.png"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-ldpi-v4\\exo_controls_previous.png",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\drawable-ldpi-v4\\exo_controls_previous.png"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-ldpi-v4\\exo_controls_next.png",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\drawable-ldpi-v4\\exo_controls_next.png"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-ldpi-v4\\exo_controls_fastforward.png",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\drawable-ldpi-v4\\exo_controls_fastforward.png"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\drawable-ldpi-v4\\exo_controls_rewind.png",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\drawable-ldpi-v4\\exo_controls_rewind.png"
+    }
+]

@@ -1,0 +1,1077 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:2:1-269:12
+	package
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:3:3-30
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:5:3-49
+	xmlns:android
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:4:3-61
+	android:versionCode
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+permission#com.dessanedev.nikki.permission.C2D_MESSAGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:7:3-9:42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:9:5-40
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:8:5-63
+uses-permission#com.dessanedev.nikki.permission.C2D_MESSAGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:12:3-81
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:12:20-78
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:13:3-80
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:22:5-81
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\Jean\.android\build-cache\0347e911533f041522fd713e928cc5003532c7b4\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\Jean\.android\build-cache\f7bc2755e16e35005cefa75757ca59457eac40c1\output\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:13:20-77
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:14:3-77
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:19:5-78
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:25:5-79
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\Jean\.android\build-cache\8d620a8adccb32ca76b69e0c0b87e7bb24486013\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\501ef37f4f4b933a66a5fa93545f067a1f2d3c8e\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:19:5-78
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:14:20-74
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:15:3-65
+MERGED from [com.google.firebase:firebase-crash:9.8.0] C:\Users\Jean\.android\build-cache\cc890cdc3c57c51ec739b6c33c45eccf5a445521\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:20:5-66
+MERGED from [android:react-native-firebase:unspecified] C:\Users\Jean\react-native\nikki\node_modules\react-native-firebase\android\build\intermediates\bundles\default\AndroidManifest.xml:11:5-67
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:19:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\Jean\.android\build-cache\4b7cd3ce336ca03addcb459b1fa631c26c5fdfd2\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\Jean\.android\build-cache\aee6e009e045690b18e7e2cc629a921f05ed3aef\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\Jean\.android\build-cache\2bb8dbd2c139a3b3708140b4cecf15d9f55eb55b\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\Jean\.android\build-cache\85d2edbfd524223ff451f0b741a1d360609260b0\output\AndroidManifest.xml:25:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\Jean\.android\build-cache\847470267f0504fdc8f1bb4b04e15ed3cb35d953\output\AndroidManifest.xml:9:5-67
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\Jean\.android\build-cache\0347e911533f041522fd713e928cc5003532c7b4\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\Jean\.android\build-cache\f7bc2755e16e35005cefa75757ca59457eac40c1\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\Jean\.android\build-cache\8d620a8adccb32ca76b69e0c0b87e7bb24486013\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\501ef37f4f4b933a66a5fa93545f067a1f2d3c8e\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:20:5-66
+MERGED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:15:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:16:3-76
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:21:5-78
+MERGED from [com.facebook.react:react-native:25.0.0] C:\Users\Jean\.android\build-cache\77f55fa504724924f755199dfdc01b9f4a6b3a1d\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] C:\Users\Jean\.android\build-cache\3a8830c8bca5a555940f99bc27037656e9a85830\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] C:\Users\Jean\.android\build-cache\88015e6422700834c52906c87a3d2d9703432dd7\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi23:1.0.0] C:\Users\Jean\.android\build-cache\19076079ffed862b886d0bf130eb3b1846ed966c\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi22:1.0.0] C:\Users\Jean\.android\build-cache\96c37e780f16f205390c147ea2959e2b87efc402\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi21:1.0.0] C:\Users\Jean\.android\build-cache\d8205e9120ce112937c3689ae1e45b5a526d071a\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi20:1.0.0] C:\Users\Jean\.android\build-cache\112379e96edff89f17e6ab7038b0bdc06eabc00b\output\AndroidManifest.xml:11:5-78
+MERGED from [host.exp:reactandroid-abi19:1.0.0] C:\Users\Jean\.android\build-cache\38c846f6c9a003aec77a2000d86b92307de641e3\output\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:16:20-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:17:3-66
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:21:5-67
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:22:5-68
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\Jean\.android\build-cache\8d620a8adccb32ca76b69e0c0b87e7bb24486013\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\501ef37f4f4b933a66a5fa93545f067a1f2d3c8e\output\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:17:20-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:21:7-103
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:37:5-81
+REJECTED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:12:5-81
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:21:81-100
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:21:24-80
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:22:1-95
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:38:5-79
+REJECTED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:14:5-79
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:22:73-92
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:22:18-72
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:23:1-81
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:36:5-65
+REJECTED from [com.google.android:cameraview:1.0.0] C:\Users\Jean\.android\build-cache\ccaa2815b5f43f24679268b0f24cf746c378a875\output\AndroidManifest.xml:23:5-65
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:23:59-78
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:23:18-58
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:24:1-91
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:26:5-75
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:24:69-88
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:24:18-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:25:1-88
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:31:5-72
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:25:66-85
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:25:18-65
+uses-permission#android.permission.READ_CALENDAR
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:26:1-88
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:32:5-72
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:26:66-85
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:26:18-65
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:27:1-89
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:33:5-73
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:27:67-86
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:27:18-66
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:28:1-96
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:34:5-80
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:28:74-93
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:28:18-73
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:29:1-96
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:24:5-80
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:29:74-93
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:29:18-73
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:30:1-91
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:30:69-88
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:30:18-68
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:31:1-87
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:31:65-84
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:31:18-64
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:32:1-90
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:27:5-74
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:32:68-87
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:32:18-67
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:33:1-82
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:33:60-79
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:33:18-59
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:34:1-97
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:35:5-81
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:34:75-94
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:34:18-74
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:35:1-100
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:30:5-84
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:35:78-97
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:35:18-77
+uses-permission#com.android.launcher.permission.INSTALL_SHORTCUT
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:36:1-104
+REJECTED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:20:5-88
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:36:82-101
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:36:18-81
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:37:1-110
+REJECTED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:16:5-94
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:37:88-107
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:37:18-87
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:38:1-114
+REJECTED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:15:5-98
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:38:92-111
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:38:18-91
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:39:1-97
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:23:5-81
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:39:75-94
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:39:18-74
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:40:1-99
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:24:5-83
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:40:77-96
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:40:18-76
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:41:1-99
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:33:5-83
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:41:77-96
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:41:18-76
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:42:1-102
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:19:5-86
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:42:80-99
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:42:18-79
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:43:1-103
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:20:5-87
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:43:81-100
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:43:18-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:44:1-104
+REJECTED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:27:5-88
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:44:82-101
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:44:18-81
+uses-feature#0x00030000
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:49:3-77
+	android:glEsVersion
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:49:17-49
+	android:required
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:49:50-74
+application
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:51:3-267:17
+MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\Jean\.android\build-cache\669900d30210034d6873ac838a947fa4bafe8538\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-auth:9.8.0] C:\Users\Jean\.android\build-cache\cde446033fc8e94d6b51e9a1ff83b0bf0cfe4b0b\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] C:\Users\Jean\.android\build-cache\e59beb23124f0bac13eb194bfefa0e602ec1675f\output\AndroidManifest.xml:19:5-20:19
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-crash:9.8.0] C:\Users\Jean\.android\build-cache\cc890cdc3c57c51ec739b6c33c45eccf5a445521\output\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-invites:9.8.0] C:\Users\Jean\.android\build-cache\8389ca5d95b816e638dafbe0a48278f38035df33\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:19:5-26:19
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-config:9.8.0] C:\Users\Jean\.android\build-cache\1ed4b359235e031f690001079d95be618ae65176\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:28:5-50:19
+MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:4:5-7:19
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:68:5-84:19
+MERGED from [com.facebook.react:react-native:25.0.0] C:\Users\Jean\.android\build-cache\77f55fa504724924f755199dfdc01b9f4a6b3a1d\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] C:\Users\Jean\.android\build-cache\3a8830c8bca5a555940f99bc27037656e9a85830\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] C:\Users\Jean\.android\build-cache\88015e6422700834c52906c87a3d2d9703432dd7\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi23:1.0.0] C:\Users\Jean\.android\build-cache\19076079ffed862b886d0bf130eb3b1846ed966c\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi22:1.0.0] C:\Users\Jean\.android\build-cache\96c37e780f16f205390c147ea2959e2b87efc402\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi21:1.0.0] C:\Users\Jean\.android\build-cache\d8205e9120ce112937c3689ae1e45b5a526d071a\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi20:1.0.0] C:\Users\Jean\.android\build-cache\112379e96edff89f17e6ab7038b0bdc06eabc00b\output\AndroidManifest.xml:13:5-20
+MERGED from [host.exp:reactandroid-abi19:1.0.0] C:\Users\Jean\.android\build-cache\38c846f6c9a003aec77a2000d86b92307de641e3\output\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Jean\.android\build-cache\c92a8f561f9b0489e857859d54fcb1ab4edd07ff\output\AndroidManifest.xml:3:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Jean\.android\build-cache\d7e308bf38b788e0eb4fb60fe9c5f73bec4722d9\output\AndroidManifest.xml:2:3-17
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\Jean\.android\build-cache\4b7cd3ce336ca03addcb459b1fa631c26c5fdfd2\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\Jean\.android\build-cache\aee6e009e045690b18e7e2cc629a921f05ed3aef\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\Jean\.android\build-cache\2bb8dbd2c139a3b3708140b4cecf15d9f55eb55b\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\Jean\.android\build-cache\85d2edbfd524223ff451f0b741a1d360609260b0\output\AndroidManifest.xml:27:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\Jean\.android\build-cache\847470267f0504fdc8f1bb4b04e15ed3cb35d953\output\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] C:\Users\Jean\.android\build-cache\b0abe0b4b091b32a514fe0a9bfdf41f6eda7d1a6\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\Jean\.android\build-cache\2ce8a9f9d864fcb7090dff0f4ab45c85f9119c6f\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-share:4.28.0] C:\Users\Jean\.android\build-cache\9f450195ae630386d0bcd90d105dcd838a42531e\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\Jean\.android\build-cache\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\output\AndroidManifest.xml:28:5-34:19
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c2104460e882996c1e428d65785c7d73c9a10d40\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-places:4.28.0] C:\Users\Jean\.android\build-cache\5bad3c6aa3222697946efc35b4f2a5b0647a8b28\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] C:\Users\Jean\.android\build-cache\1953301ad2778e511720a15fcd835ef6753fd701\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] C:\Users\Jean\.android\build-cache\6cb71e8360386a7cf98233d01372ae255d10e02a\output\AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\Jean\.android\build-cache\c7289962629f12fdb5fb506315ce82e431d9866d\output\AndroidManifest.xml:28:5-43:19
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:14:5-18:19
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c40fe7d38e30e73f58ce4dc85db6f5465b917c38\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\Jean\.android\build-cache\0347e911533f041522fd713e928cc5003532c7b4\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\Jean\.android\build-cache\f7bc2755e16e35005cefa75757ca59457eac40c1\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\Jean\.android\build-cache\8d620a8adccb32ca76b69e0c0b87e7bb24486013\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\501ef37f4f4b933a66a5fa93545f067a1f2d3c8e\output\AndroidManifest.xml:26:5-19
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:19:5-25:19
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:23:5-27:19
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] C:\Users\Jean\.android\build-cache\8d6e16fda9b650536782fd6eebb7228383bb21c0\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] C:\Users\Jean\.android\build-cache\dcd8864677aee282778eb380bb635ab472f20fcd\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] C:\Users\Jean\.android\build-cache\fc8cca1e9ac67deaf0a9895bf9e3ac157ea231b5\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-location:9.8.0] C:\Users\Jean\.android\build-cache\aee437676bca80edd84dd845eaae4911b0dafa3a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] C:\Users\Jean\.android\build-cache\1c4c16f95a3107915678fafbbb93118dca111b7a\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] C:\Users\Jean\.android\build-cache\2ab4727ba38f364fc70f89cee43d6e6b216b1304\output\AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\Jean\.android\build-cache\9a42ad1afd0697b47459fa268fb922a08c8b5c33\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\Jean\.android\build-cache\4b2a2093beab0d3ffd481f70891e14057835c5c5\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\Jean\.android\build-cache\2e29aa455cc0c938f9286171ff7d2add6c5a3cf5\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.raizlabs.android:DBFlow:2.2.1] C:\Users\Jean\.android\build-cache\92c13933e8f7f993c0bb125d449eaac5123fb600\output\AndroidManifest.xml:11:5-20
+MERGED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:26:5-44:19
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\Jean\.android\build-cache\d8f63dcfd05c0dd126d903a83d42de45f34bb859\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\Jean\.android\build-cache\f95a2045cc1cf57377494cde44653c1d99a368ca\output\AndroidManifest.xml:10:5-20
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] C:\Users\Jean\.android\build-cache\95aa6ceddb6f19cc57f37271b9f330b24a4e1425\output\AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:18:5-28:19
+MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\Jean\.android\build-cache\297c71b06a78cdd06f723cea3b0eea9135147b57\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\Jean\.android\build-cache\ccaa2815b5f43f24679268b0f24cf746c378a875\output\AndroidManifest.xml:32:5-20
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Jean\.android\build-cache\ee679f92d8f713e2e441f69505f5732dafdf7e6f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Jean\.android\build-cache\0f4e5b02aab66ca7bec5c477960b0abb7290ce98\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Jean\.android\build-cache\7e526fae80f1cba3c4bd9c00110c726d7f38beea\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Jean\.android\build-cache\5784d1c759b4dccfe7fa221c28950b372728327f\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Jean\.android\build-cache\878d4d62181a02fb3bc63b8d5c50755a045e4a3c\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Jean\.android\build-cache\7c762e79cb8b0b8713ae4f5b2f591f2a6af3b535\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Jean\.android\build-cache\288cf3b99ada15b039334614825da7f5e811b578\output\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Jean\.android\build-cache\7ae1187182cd07fb98edd5ba7f727a7622cd895c\output\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Jean\.android\build-cache\f2b922e09c2a847254a3294a3afc002dcfe861e1\output\AndroidManifest.xml:25:5-29:19
+	android:label
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:55:5-37
+	android:supportsRtl
+		ADDED from [com.facebook.android:facebook-android-sdk:4.28.0] C:\Users\Jean\.android\build-cache\b0abe0b4b091b32a514fe0a9bfdf41f6eda7d1a6\output\AndroidManifest.xml:28:18-44
+	android:allowBackup
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:53:5-31
+	android:icon
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:54:5-39
+	android:largeHeap
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:56:5-29
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:52:5-36
+activity#host.exp.exponent.LauncherActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:58:5-72:16
+	android:screenOrientation
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:62:7-43
+	android:launchMode
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:61:7-38
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:60:7-30
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:63:7-66
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:59:7-39
+intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:64:7-71:23
+data
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:65:9-69
+	android:scheme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:65:15-67
+action#android.intent.action.VIEW
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:67:9-60
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:67:17-58
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:69:9-67
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:69:19-65
+category#android.intent.category.BROWSABLE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:70:9-69
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:70:19-67
+activity#host.exp.exponent.experience.ExperienceActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:74:5-79:16
+	android:windowSoftInputMode
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:78:7-49
+	android:configChanges
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:76:7-77
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:77:7-50
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:75:7-52
+activity#host.exp.exponent.MainActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:81:5-91:16
+	android:windowSoftInputMode
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:85:7-49
+	android:configChanges
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:83:7-77
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:84:7-51
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:82:7-35
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:86:7-90:23
+action#android.intent.action.MAIN
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:87:9-60
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:87:17-58
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:89:9-68
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:89:19-66
+activity#host.exp.exponent.experience.ShellAppActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:93:5-99:16
+	android:windowSoftInputMode
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:97:7-49
+	android:configChanges
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:95:7-77
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:96:7-51
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:94:7-50
+activity#host.exp.exponent.experience.HomeActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:101:5-107:16
+	android:screenOrientation
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:105:7-43
+	android:label
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:103:7-39
+	android:launchMode
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:104:7-38
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:106:7-50
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:102:7-46
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:109:5-81
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:109:15-79
+activity#abi25_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:111:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:111:15-89
+activity#abi24_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:112:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:112:15-89
+activity#abi23_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:113:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:113:15-89
+activity#abi22_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:114:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:114:15-89
+activity#abi21_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:115:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:115:15-89
+activity#abi20_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:116:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:116:15-89
+activity#abi19_0_0.com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:117:5-91
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:117:15-89
+activity#host.exp.exponent.ExponentDevActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:119:5-126:16
+	android:screenOrientation
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:123:7-43
+	android:label
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:122:7-48
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:121:7-30
+	android:windowSoftInputMode
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:125:7-46
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:124:7-49
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:120:7-42
+activity#host.exp.exponent.oauth.OAuthWebViewActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:128:5-132:16
+	android:screenOrientation
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:130:7-43
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:131:7-50
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:129:7-49
+activity#net.openid.appauth.RedirectUriReceiverActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:134:5-143:16
+REJECTED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:32:9-43:20
+	tools:node
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:136:9-29
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:135:9-70
+activity#host.exp.exponent.oauth.OAuthResultActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:145:5-147:16
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:146:7-48
+activity#host.exp.exponent.chrometabs.ChromeTabsManagerActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:149:5-151:16
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:150:7-59
+activity#host.exp.exponent.experience.ErrorActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:153:5-157:16
+	android:screenOrientation
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:156:7-43
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:155:7-49
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:154:7-47
+activity#host.exp.exponent.experience.InfoActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:159:5-163:16
+	android:screenOrientation
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:161:7-43
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:162:7-50
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:160:7-46
+activity#com.facebook.FacebookActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:165:5-170:39
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\Jean\.android\build-cache\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\output\AndroidManifest.xml:29:9-32:66
+	android:label
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:168:7-39
+	android:configChanges
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:167:7-90
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:169:7-66
+		REJECTED from [com.facebook.android:facebook-common:4.28.0] C:\Users\Jean\.android\build-cache\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\output\AndroidManifest.xml:32:13-63
+	tools:replace
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:170:7-36
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:166:7-51
+activity#com.facebook.ads.InterstitialAdActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:172:5-176:69
+	android:label
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:175:7-39
+	android:configChanges
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:174:7-90
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:176:7-66
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:173:7-61
+service#host.exp.exponent.ExponentIntentService
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:178:5-180:34
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:180:7-31
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:179:7-44
+receiver#host.exp.exponent.referrer.InstallReferrerReceiver
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:183:5-189:16
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:185:7-30
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:184:7-72
+intent-filter#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:186:7-188:23
+action#com.android.vending.INSTALL_REFERRER
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:187:9-71
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:187:17-68
+receiver#com.google.android.gms.analytics.AnalyticsReceiver
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:199:5-204:16
+	android:enabled
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:200:15-37
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:199:15-80
+intent-filter#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:201:7-203:23
+action#com.google.android.gms.analytics.ANALYTICS_DISPATCH
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:202:9-86
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:202:17-83
+service#com.google.android.gms.analytics.AnalyticsService
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:206:5-208:40
+	android:enabled
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:207:14-36
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:208:14-38
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:206:14-78
+receiver#com.google.android.gms.gcm.GcmReceiver
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:211:5-221:16
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:213:7-30
+	android:permission
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:214:7-67
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:212:7-60
+intent-filter#com.dessanedev.nikki+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:215:7-220:23
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:216:9-72
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:216:17-70
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:217:9-77
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:217:17-75
+category#com.dessanedev.nikki
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:219:9-56
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:219:19-54
+service#host.exp.exponent.gcm.ExponentGcmListenerService
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:223:5-229:15
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:225:7-31
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:224:7-53
+intent-filter#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:226:7-228:23
+service#host.exp.exponent.gcm.ExponentInstanceIDListenerService
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:230:5-236:15
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:232:7-31
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:231:7-60
+intent-filter#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:233:7-235:23
+action#com.google.android.gms.iid.InstanceID
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:234:9-71
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:234:17-69
+service#host.exp.exponent.gcm.RegistrationIntentService
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:237:5-240:15
+	android:exported
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:239:7-31
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:238:7-52
+activity#com.theartofdev.edmodo.cropper.CropImageActivity
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:243:5-246:16
+	android:theme
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:245:7-50
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:244:7-70
+meta-data#io.fabric.ApiKey
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:251:5-253:65
+	android:value
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:253:7-63
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:252:7-38
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:258:5-260:64
+	android:value
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:260:7-62
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:259:7-52
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:266:5-83
+	android:value
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:266:62-81
+	android:name
+		ADDED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml:266:16-61
+uses-sdk
+INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.firebase:firebase-core:9.8.0] C:\Users\Jean\.android\build-cache\669900d30210034d6873ac838a947fa4bafe8538\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-auth:9.8.0] C:\Users\Jean\.android\build-cache\cde446033fc8e94d6b51e9a1ff83b0bf0cfe4b0b\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-common:9.8.0] C:\Users\Jean\.android\build-cache\e59beb23124f0bac13eb194bfefa0e602ec1675f\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-auth-module:9.8.0] C:\Users\Jean\.android\build-cache\06bb6b34a6bf31aa67a9dd4c13445662a1279a57\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-crash:9.8.0] C:\Users\Jean\.android\build-cache\cc890cdc3c57c51ec739b6c33c45eccf5a445521\output\AndroidManifest.xml:20:5-42
+MERGED from [com.google.firebase:firebase-database:9.8.0] C:\Users\Jean\.android\build-cache\7c08502fa3f6bf4cab7528117f6dfd499295f708\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-database-connection:9.8.0] C:\Users\Jean\.android\build-cache\049eb491296f6eae82514db040c7d04c37d50177\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-invites:9.8.0] C:\Users\Jean\.android\build-cache\8389ca5d95b816e638dafbe0a48278f38035df33\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-config:9.8.0] C:\Users\Jean\.android\build-cache\1ed4b359235e031f690001079d95be618ae65176\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.firebase:firebase-storage:9.8.0] C:\Users\Jean\.android\build-cache\540e3ac4a746f8a413529abca00216e35125f7ca\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-storage-common:9.8.0] C:\Users\Jean\.android\build-cache\38ead6290861393001bfbea750d485b69861280a\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:3:5-42
+MERGED from [android:react-native-firebase:unspecified] C:\Users\Jean\react-native\nikki\node_modules\react-native-firebase\android\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Jean\.android\build-cache\a3e91bc78d2df3e25a646c13bece61448c7b5022\output\AndroidManifest.xml:18:5-42
+MERGED from [com.facebook.react:react-native:25.0.0] C:\Users\Jean\.android\build-cache\77f55fa504724924f755199dfdc01b9f4a6b3a1d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.0.1] C:\Users\Jean\.android\build-cache\ac1dec86df39e67b6b118de7837493b0ce5122ff\output\AndroidManifest.xml:5:5-7:41
+MERGED from [host.exp:reactandroid-abi25_0_0:1.0.0] C:\Users\Jean\.android\build-cache\3a8830c8bca5a555940f99bc27037656e9a85830\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi24_0_0:1.0.0] C:\Users\Jean\.android\build-cache\88015e6422700834c52906c87a3d2d9703432dd7\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi23:1.0.0] C:\Users\Jean\.android\build-cache\19076079ffed862b886d0bf130eb3b1846ed966c\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi22:1.0.0] C:\Users\Jean\.android\build-cache\96c37e780f16f205390c147ea2959e2b87efc402\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi21:1.0.0] C:\Users\Jean\.android\build-cache\d8205e9120ce112937c3689ae1e45b5a526d071a\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi20:1.0.0] C:\Users\Jean\.android\build-cache\112379e96edff89f17e6ab7038b0bdc06eabc00b\output\AndroidManifest.xml:7:5-9:41
+MERGED from [host.exp:reactandroid-abi19:1.0.0] C:\Users\Jean\.android\build-cache\38c846f6c9a003aec77a2000d86b92307de641e3\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.fbui.textlayoutbuilder:textlayoutbuilder:1.0.0] C:\Users\Jean\.android\build-cache\bad95c266d238e8b3d929d3c991c10d34cad684d\output\AndroidManifest.xml:14:5-16:41
+MERGED from [com.facebook.fresco:fresco:1.0.1] C:\Users\Jean\.android\build-cache\81a39a46cc37fa4b6de73ba20f480688fc889887\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.0.1] C:\Users\Jean\.android\build-cache\3b84f2afd95718b6b1960d68e5954ec91550c24d\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-gif:1.0.1] C:\Users\Jean\.android\build-cache\667425391c5a6e798234a88869d2421cd9f51b78\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-webp:1.0.1] C:\Users\Jean\.android\build-cache\7a323bd4b6b9a4cb43802ebfeccaa36ae7b828ce\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:animated-base:1.0.1] C:\Users\Jean\.android\build-cache\ed6016fbf87c4ae8512b7bd45b92757798938aaf\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.0.1] C:\Users\Jean\.android\build-cache\ddb3b750297296de11475529f423203c1caae326\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:webpsupport:1.0.1] C:\Users\Jean\.android\build-cache\8387d82fc9b8f9f8c750c0016c36cfb6ee9bc2df\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.0.1] C:\Users\Jean\.android\build-cache\1d9a15ac2ea693003c46f3760d8c2321adcc935b\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.0.1] C:\Users\Jean\.android\build-cache\0a2f86fa435739e91538a6858c47191ecc892a30\output\AndroidManifest.xml:5:5-7:41
+MERGED from [expolib_v1.com.facebook.fresco:expolib_v1-imagepipeline-okhttp3:1.0.1] C:\Users\Jean\.android\build-cache\fc2f13eb63ab78908e0393a88cbd96f8a93141d1\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.1.0] C:\Users\Jean\.android\build-cache\c92a8f561f9b0489e857859d54fcb1ab4edd07ff\output\AndroidManifest.xml:2:3-70
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.5.5] C:\Users\Jean\.android\build-cache\4b7cd3ce336ca03addcb459b1fa631c26c5fdfd2\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.8] C:\Users\Jean\.android\build-cache\aee6e009e045690b18e7e2cc629a921f05ed3aef\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.6] C:\Users\Jean\.android\build-cache\2bb8dbd2c139a3b3708140b4cecf15d9f55eb55b\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.10] C:\Users\Jean\.android\build-cache\85d2edbfd524223ff451f0b741a1d360609260b0\output\AndroidManifest.xml:23:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.1.4] C:\Users\Jean\.android\build-cache\847470267f0504fdc8f1bb4b04e15ed3cb35d953\output\AndroidManifest.xml:7:5-43
+MERGED from [com.facebook.android:facebook-android-sdk:4.28.0] C:\Users\Jean\.android\build-cache\b0abe0b4b091b32a514fe0a9bfdf41f6eda7d1a6\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:4.28.0] C:\Users\Jean\.android\build-cache\2ce8a9f9d864fcb7090dff0f4ab45c85f9119c6f\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-share:4.28.0] C:\Users\Jean\.android\build-cache\9f450195ae630386d0bcd90d105dcd838a42531e\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-common:4.28.0] C:\Users\Jean\.android\build-cache\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:cardview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c2104460e882996c1e428d65785c7d73c9a10d40\output\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.android:facebook-places:4.28.0] C:\Users\Jean\.android\build-cache\5bad3c6aa3222697946efc35b4f2a5b0647a8b28\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-applinks:4.28.0] C:\Users\Jean\.android\build-cache\1953301ad2778e511720a15fcd835ef6753fd701\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-messenger:4.28.0] C:\Users\Jean\.android\build-cache\6cb71e8360386a7cf98233d01372ae255d10e02a\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:4.28.0] C:\Users\Jean\.android\build-cache\c7289962629f12fdb5fb506315ce82e431d9866d\output\AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c40fe7d38e30e73f58ce4dc85db6f5465b917c38\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer:r2.0.3] C:\Users\Jean\.android\build-cache\d09c822490993db46591f944732557dd9d959950\output\AndroidManifest.xml:21:5-23:41
+MERGED from [com.google.android.gms:play-services-gcm:9.8.0] C:\Users\Jean\.android\build-cache\0347e911533f041522fd713e928cc5003532c7b4\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.8.0] C:\Users\Jean\.android\build-cache\f7bc2755e16e35005cefa75757ca59457eac40c1\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics:9.8.0] C:\Users\Jean\.android\build-cache\8d620a8adccb32ca76b69e0c0b87e7bb24486013\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\501ef37f4f4b933a66a5fa93545f067a1f2d3c8e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-auth-base:9.8.0] C:\Users\Jean\.android\build-cache\3f84ba13dbf8d7c1f638a1e030fbae726f0264f3\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-ads:9.8.0] C:\Users\Jean\.android\build-cache\41127abcf95346e273aeb522eb128f1738498b9c\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:22:5-42
+MERGED from [com.google.android.gms:play-services-clearcut:9.8.0] C:\Users\Jean\.android\build-cache\8d6e16fda9b650536782fd6eebb7228383bb21c0\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-gass:9.8.0] C:\Users\Jean\.android\build-cache\dcd8864677aee282778eb380bb635ab472f20fcd\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-fitness:9.8.0] C:\Users\Jean\.android\build-cache\fc8cca1e9ac67deaf0a9895bf9e3ac157ea231b5\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-location:9.8.0] C:\Users\Jean\.android\build-cache\aee437676bca80edd84dd845eaae4911b0dafa3a\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.8.0] C:\Users\Jean\.android\build-cache\1c4c16f95a3107915678fafbbb93118dca111b7a\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-wallet:9.8.0] C:\Users\Jean\.android\build-cache\8a9e0a633d605f6df16b7e520400ee2ccceba2d4\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:9.8.0] C:\Users\Jean\.android\build-cache\2ab4727ba38f364fc70f89cee43d6e6b216b1304\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\Jean\.android\build-cache\9a42ad1afd0697b47459fa268fb922a08c8b5c33\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.8.0] C:\Users\Jean\.android\build-cache\4b2a2093beab0d3ffd481f70891e14057835c5c5\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\Jean\.android\build-cache\2e29aa455cc0c938f9286171ff7d2add6c5a3cf5\output\AndroidManifest.xml:17:5-42
+MERGED from [com.stripe:stripe-android:2.1.0] C:\Users\Jean\.android\build-cache\5f659666f5dafba5d34c527e7253891a9a8fd8e4\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.thefuntasty:CreditCardEntry:1.4.8.4] C:\Users\Jean\.android\build-cache\176487d6f39fa0807e422803bd6d7503b2b745d1\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.raizlabs.android:DBFlow:2.2.1] C:\Users\Jean\.android\build-cache\92c13933e8f7f993c0bb125d449eaac5123fb600\output\AndroidManifest.xml:7:5-9:41
+MERGED from [me.leolin:ShortcutBadger:1.1.4] C:\Users\Jean\.android\build-cache\85c96571feda13a68d51d6ebb246a7d450196330\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.7] C:\Users\Jean\.android\build-cache\62f7a445aebbdadfed2bd6dfe697dff62380caa6\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.yqritc:android-scalablevideoview:1.0.1] C:\Users\Jean\.android\build-cache\cdb40f95d9765f86c682413d6f0c91f6635c2da0\output\AndroidManifest.xml:8:5-10:41
+MERGED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\Jean\.android\build-cache\d8f63dcfd05c0dd126d903a83d42de45f34bb859\output\AndroidManifest.xml:20:5-44
+MERGED from [com.airbnb.android:lottie:2.2.0] C:\Users\Jean\.android\build-cache\f95a2045cc1cf57377494cde44653c1d99a368ca\output\AndroidManifest.xml:6:5-8:41
+MERGED from [io.branch.sdk.android:library:2.6.1] C:\Users\Jean\.android\build-cache\5d47ad61f7b424aa9c21c8c218754cf29da4ea4d\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:answers-shim:0.0.6] C:\Users\Jean\.android\build-cache\95aa6ceddb6f19cc57f37271b9f330b24a4e1425\output\AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\Jean\.android\build-cache\297c71b06a78cdd06f723cea3b0eea9135147b57\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\Jean\.android\build-cache\ccaa2815b5f43f24679268b0f24cf746c378a875\output\AndroidManifest.xml:19:5-21:41
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Jean\.android\build-cache\ee679f92d8f713e2e441f69505f5732dafdf7e6f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Jean\.android\build-cache\0f4e5b02aab66ca7bec5c477960b0abb7290ce98\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Jean\.android\build-cache\7e526fae80f1cba3c4bd9c00110c726d7f38beea\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Jean\.android\build-cache\5784d1c759b4dccfe7fa221c28950b372728327f\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Jean\.android\build-cache\878d4d62181a02fb3bc63b8d5c50755a045e4a3c\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Jean\.android\build-cache\7c762e79cb8b0b8713ae4f5b2f591f2a6af3b535\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Jean\.android\build-cache\288cf3b99ada15b039334614825da7f5e811b578\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Jean\.android\build-cache\7ae1187182cd07fb98edd5ba7f727a7622cd895c\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Jean\.android\build-cache\f2b922e09c2a847254a3294a3afc002dcfe861e1\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.squareup.leakcanary:leakcanary-android-no-op:1.4-beta1] C:\Users\Jean\.android\build-cache\0bda8960c0e2b2e2e2f89c69a9ea663f7805f903\output\AndroidManifest.xml:20:5-22:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Jean\.android\build-cache\ee679f92d8f713e2e441f69505f5732dafdf7e6f\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Jean\react-native\nikki\android\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:23:18-87
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:24:13-26:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:24:28-51
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:25:17-77
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.8.0] C:\Users\Jean\.android\build-cache\b2c09684f37a2262c49051be10ab73ee2198b5c9\output\AndroidManifest.xml:25:25-75
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:20:9-25:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:20:51-74
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:20:75-121
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:20:19-50
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:21:13-24:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:22:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:9.8.0] C:\Users\Jean\.android\build-cache\54aea69b0e3e3080a197211da95106ba07673dfc\output\AndroidManifest.xml:22:25-87
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:25:7-26:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:25:90-112
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:25:113-137
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:25:17-89
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:27:7-31:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:27:162-184
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:27:105-161
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:27:17-104
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:9.8.0] C:\Users\Jean\.android\build-cache\a2ab6aa94c39dfd99f05058d5ed3880da22e8723\output\AndroidManifest.xml:27:7-137
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:32:88-110
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:32:111-135
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.8.0] C:\Users\Jean\.android\build-cache\c65ae8dcf01dafb93724759c15eb3b9abcb60c17\output\AndroidManifest.xml:32:16-87
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:30:9-36:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:30:19-84
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:31:13-35:29
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:34:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:34:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:40:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:40:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:40:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:44:9-48:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:44:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:44:18-82
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:45:13-47:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:45:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:46:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.8.0] C:\Users\Jean\.android\build-cache\be105db5d4b6db0353a85a13fc886f2bdf5286db\output\AndroidManifest.xml:46:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:6:9-175
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:6:125-149
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:6:150-173
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.8.0] C:\Users\Jean\.android\build-cache\539b1a8c57627e3fea4cfa2911638f67bc1a5da8\output\AndroidManifest.xml:6:79-124
+supports-screens
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:11:5-17:24
+	android:largeScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:13:9-36
+	android:smallScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:15:9-36
+	android:normalScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:14:9-37
+	android:xlargeScreens
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:16:9-37
+	android:anyDensity
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:12:9-34
+uses-permission#host.exp.exponent.permission.C2D_MESSAGE
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:23:5-80
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:23:22-77
+uses-feature#android.hardware.camera
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:40:5-42:36
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\Jean\.android\build-cache\ccaa2815b5f43f24679268b0f24cf746c378a875\output\AndroidManifest.xml:25:5-27:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:42:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:41:9-47
+uses-feature#android.hardware.camera.autofocus
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:43:5-45:36
+MERGED from [com.google.android:cameraview:1.0.0] C:\Users\Jean\.android\build-cache\ccaa2815b5f43f24679268b0f24cf746c378a875\output\AndroidManifest.xml:28:5-30:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:45:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:44:9-57
+uses-feature#android.hardware.location
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:46:5-48:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:48:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:47:9-49
+uses-feature#android.hardware.location.gps
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:49:5-51:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:51:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:50:9-53
+uses-feature#android.hardware.location.network
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:52:5-54:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:54:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:53:9-57
+uses-feature#android.hardware.wifi
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:55:5-57:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:57:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:56:9-45
+uses-feature#android.hardware.microphone
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:58:5-60:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:60:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:59:9-51
+uses-feature#android.hardware.telephony
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:61:5-63:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:63:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:62:9-50
+uses-feature#android.hardware.bluetooth
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:64:5-66:36
+	android:required
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:66:9-33
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:65:9-50
+receiver#host.exp.exponent.notifications.ScheduledNotificationReceiver
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:71:9-73:40
+	android:exported
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:73:13-37
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:72:13-89
+provider#android.support.v4.content.FileProvider
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:75:9-83:20
+	android:authorities
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:77:13-60
+	android:grantUriPermissions
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:79:13-47
+	android:exported
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:78:13-37
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:76:13-67
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:80:13-82:58
+	android:resource
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:82:17-55
+	android:name
+		ADDED from [host.exp.exponent:expoview:25.0.0] C:\Users\Jean\.android\build-cache\8ef127dd674924fefe766a892c4dff92ab37a3d3\output\AndroidManifest.xml:81:17-67
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\Jean\.android\build-cache\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\output\AndroidManifest.xml:33:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:4.28.0] C:\Users\Jean\.android\build-cache\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\output\AndroidManifest.xml:33:19-68
+meta-data#android.support.VERSION
+ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c2104460e882996c1e428d65785c7d73c9a10d40\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c40fe7d38e30e73f58ce4dc85db6f5465b917c38\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:customtabs:26.0.1] C:\Users\Jean\.android\build-cache\d8f63dcfd05c0dd126d903a83d42de45f34bb859\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:exifinterface:26.0.1] C:\Users\Jean\.android\build-cache\297c71b06a78cdd06f723cea3b0eea9135147b57\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:appcompat-v7:26.0.1] C:\Users\Jean\.android\build-cache\ee679f92d8f713e2e441f69505f5732dafdf7e6f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.1] C:\Users\Jean\.android\build-cache\0f4e5b02aab66ca7bec5c477960b0abb7290ce98\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.1] C:\Users\Jean\.android\build-cache\7e526fae80f1cba3c4bd9c00110c726d7f38beea\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.1] C:\Users\Jean\.android\build-cache\5784d1c759b4dccfe7fa221c28950b372728327f\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.1] C:\Users\Jean\.android\build-cache\878d4d62181a02fb3bc63b8d5c50755a045e4a3c\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.1] C:\Users\Jean\.android\build-cache\7c762e79cb8b0b8713ae4f5b2f591f2a6af3b535\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.1] C:\Users\Jean\.android\build-cache\288cf3b99ada15b039334614825da7f5e811b578\output\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.0.1] C:\Users\Jean\.android\build-cache\7ae1187182cd07fb98edd5ba7f727a7622cd895c\output\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.1] C:\Users\Jean\.android\build-cache\f2b922e09c2a847254a3294a3afc002dcfe861e1\output\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c2104460e882996c1e428d65785c7d73c9a10d40\output\AndroidManifest.xml:25:13-35
+	android:name
+		ADDED from [com.android.support:cardview-v7:26.0.1] C:\Users\Jean\.android\build-cache\c2104460e882996c1e428d65785c7d73c9a10d40\output\AndroidManifest.xml:24:13-51
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\Jean\.android\build-cache\c7289962629f12fdb5fb506315ce82e431d9866d\output\AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\Jean\.android\build-cache\c7289962629f12fdb5fb506315ce82e431d9866d\output\AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\Jean\.android\build-cache\c7289962629f12fdb5fb506315ce82e431d9866d\output\AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:4.28.0] C:\Users\Jean\.android\build-cache\c7289962629f12fdb5fb506315ce82e431d9866d\output\AndroidManifest.xml:40:13-70
+activity#com.facebook.ads.AudienceNetworkActivity
+ADDED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:15:9-17:77
+	android:configChanges
+		ADDED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:17:13-74
+	android:name
+		ADDED from [com.facebook.android:audience-network-sdk:4.26.1] C:\Users\Jean\.android\build-cache\5fbcdd40c28a55e3bfad6aaddae235cb3556bf12\output\AndroidManifest.xml:16:13-68
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:20:9-189
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:20:129-162
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:20:163-187
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:20:69-128
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:20:19-68
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:24:9-184
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:24:64-87
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:24:88-182
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:9.8.0] C:\Users\Jean\.android\build-cache\0092b67689e72afa0983921be52cdb97f61e8473\output\AndroidManifest.xml:24:18-63
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:25:9-232
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:25:72-181
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:25:182-230
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:25:19-71
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:26:9-131
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:26:92-129
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads-lite:9.8.0] C:\Users\Jean\.android\build-cache\3b9211b33dcc2e83eb04e41776c370eb889f68e8\output\AndroidManifest.xml:26:19-91
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.8.0] C:\Users\Jean\.android\build-cache\b97ecb576c747241b334c972ea2f31ffefeb00f0\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\Jean\.android\build-cache\9a42ad1afd0697b47459fa268fb922a08c8b5c33\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\Jean\.android\build-cache\9a42ad1afd0697b47459fa268fb922a08c8b5c33\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\Jean\.android\build-cache\9a42ad1afd0697b47459fa268fb922a08c8b5c33\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.8.0] C:\Users\Jean\.android\build-cache\9a42ad1afd0697b47459fa268fb922a08c8b5c33\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\Jean\.android\build-cache\2e29aa455cc0c938f9286171ff7d2add6c5a3cf5\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\Jean\.android\build-cache\2e29aa455cc0c938f9286171ff7d2add6c5a3cf5\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.8.0] C:\Users\Jean\.android\build-cache\2e29aa455cc0c938f9286171ff7d2add6c5a3cf5\output\AndroidManifest.xml:20:20-65
+activity#net.openid.appauth.AuthorizationManagementActivity
+ADDED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:27:9-31:75
+	android:launchMode
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:30:13-44
+	android:exported
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:29:13-37
+	android:theme
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:31:13-72
+	android:name
+		ADDED from [net.openid:appauth:0.4.1] C:\Users\Jean\.android\build-cache\9126ab51201750ebec949b743ab2eefb84dedf7b\output\AndroidManifest.xml:28:13-78
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\Jean\.android\build-cache\8c9c9392f3c48eeef068f7cd47b48394c83bf362\output\AndroidManifest.xml:26:13-120

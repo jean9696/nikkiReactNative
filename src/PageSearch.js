@@ -4,7 +4,7 @@ import { FlatList, View, Dimensions, BackHandler, Linking, TouchableOpacity, Pla
 import * as Animatable from 'react-native-animatable';
 import getOr from 'lodash/fp/getOr';
 import GeoFire from 'geofire';
-import * as firebase from 'firebase';
+import firebase from 'react-native-firebase';
 import { Content, Icon, Button, Text, List, ListItem, Body, Thumbnail, Right, Spinner } from 'native-base';
 import Events from './Events';
 import Lottie from './Lottie';

@@ -1,0 +1,4 @@
+#Wed Mar 07 16:08:40 GMT 2018
+base.0=C\:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\transforms\\dex\\dev19\\debug\\folders\\1000\\5\\slice_1
+renamed.0=classes.dex
+file.0=C\:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\transforms\\dex\\dev19\\debug\\folders\\1000\\5\\slice_1\\classes.dex

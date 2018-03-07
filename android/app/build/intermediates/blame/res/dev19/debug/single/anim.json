@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\shake.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\176487d6f39fa0807e422803bd6d7503b2b745d1\\output\\res\\anim\\shake.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_slide_down.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\anim\\catalyst_slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\96c37e780f16f205390c147ea2959e2b87efc402\\output\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_push_up_out.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\anim\\catalyst_push_up_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\slide_up.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\96c37e780f16f205390c147ea2959e2b87efc402\\output\\res\\anim\\slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\slide_down.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\96c37e780f16f205390c147ea2959e2b87efc402\\output\\res\\anim\\slide_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_slide_up.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\anim\\catalyst_slide_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\fade_out.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\96c37e780f16f205390c147ea2959e2b87efc402\\output\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_fade_out.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\anim\\catalyst_fade_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\cycle.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\176487d6f39fa0807e422803bd6d7503b2b745d1\\output\\res\\anim\\cycle.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_fade_in.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\anim\\catalyst_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\anim\\catalyst_push_up_in.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\anim\\catalyst_push_up_in.xml"
+    }
+]

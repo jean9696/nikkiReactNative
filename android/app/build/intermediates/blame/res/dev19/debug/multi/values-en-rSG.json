@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\incremental\\mergeDev19DebugResources\\merged.dir\\values-en-rSG\\values-en-rSG.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "C:\\Users\\Jean\\.android\\build-cache\\8a9e0a633d605f6df16b7e520400ee2ccceba2d4\\output\\res\\values-en-rSG\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 244,
+                        "endColumn": 99,
+                        "endOffset": 343
+                    }
+                }
+            }
+        ]
+    }
+]

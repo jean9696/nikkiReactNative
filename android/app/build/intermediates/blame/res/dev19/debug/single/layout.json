@@ -1,0 +1,314 @@
+[
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\payment_form_fragment.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\layout\\payment_form_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\expo_media_controller.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\layout\\expo_media_controller.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\loading_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\layout\\loading_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\error_activity.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\src\\main\\res\\layout\\error_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\com_facebook_smart_device_dialog_fragment.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\\output\\res\\layout\\com_facebook_smart_device_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\exponent_dev_activity.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\src\\main\\res\\layout\\exponent_dev_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\exponent_check_box.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\src\\main\\res\\layout\\exponent_check_box.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\tooltip.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\tooltip.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\messenger_button_send_white_large.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6cb71e8360386a7cf98233d01372ae255d10e02a\\output\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\exo_simple_player_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\layout\\exo_simple_player_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\crop_image_activity.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\62f7a445aebbdadfed2bd6dfe697dff62380caa6\\output\\res\\layout\\crop_image_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\com_facebook_device_auth_dialog_fragment.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\\output\\res\\layout\\com_facebook_device_auth_dialog_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\com_facebook_login_fragment.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\\output\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\redbox_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\layout\\redbox_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\crop_image_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\62f7a445aebbdadfed2bd6dfe697dff62380caa6\\output\\res\\layout\\crop_image_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_shell_app.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\src\\main\\res\\layout\\notification_shell_app.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\src\\main\\res\\layout\\notification.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\fps_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\layout\\fps_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\messenger_button_send_white_small.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6cb71e8360386a7cf98233d01372ae255d10e02a\\output\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\messenger_button_send_white_round.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6cb71e8360386a7cf98233d01372ae255d10e02a\\output\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\exo_playback_control_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\d09c822490993db46591f944732557dd9d959950\\output\\res\\layout\\exo_playback_control_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\messenger_button_send_blue_round.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6cb71e8360386a7cf98233d01372ae255d10e02a\\output\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\com_facebook_activity_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6d04b4dcbb62406a0965b2cba849a7c2a37394d0\\output\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\payment_form_fragment_two.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\layout\\payment_form_fragment_two.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\exponent_button.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\src\\main\\res\\layout\\exponent_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\redbox_item_frame.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\layout\\redbox_item_frame.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\f2b922e09c2a847254a3294a3afc002dcfe861e1\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\dev_loading_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\layout\\dev_loading_view.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\messenger_button_send_blue_large.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6cb71e8360386a7cf98233d01372ae255d10e02a\\output\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\oauth_webview_activity.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\layout\\oauth_webview_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\2ce8a9f9d864fcb7090dff0f4ab45c85f9119c6f\\output\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\messenger_button_send_blue_small.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\6cb71e8360386a7cf98233d01372ae255d10e02a\\output\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\7e526fae80f1cba3c4bd9c00110c726d7f38beea\\output\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ee679f92d8f713e2e441f69505f5732dafdf7e6f\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\redbox_item_title.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\layout\\redbox_item_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\layout\\surface_view.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\ccaa2815b5f43f24679268b0f24cf746c378a875\\output\\res\\layout\\surface_view.xml"
+    }
+]

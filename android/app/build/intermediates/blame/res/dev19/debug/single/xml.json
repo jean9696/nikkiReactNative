@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\provider_paths.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\xml\\provider_paths.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\preferences.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\77f55fa504724924f755199dfdc01b9f4a6b3a1d\\output\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\stub_classic.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\xml\\stub_classic.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\global_tracker.xml",
+        "source": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\generated\\res\\google-services\\dev19\\debug\\xml\\global_tracker.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\xml\\stub_material.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\xml\\stub_material.xml"
+    }
+]

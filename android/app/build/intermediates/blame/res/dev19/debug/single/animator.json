@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_right_out.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\animator\\card_flip_right_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_right_in.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\animator\\card_flip_right_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_left_in.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\animator\\card_flip_left_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Jean\\react-native\\nikki\\android\\app\\build\\intermediates\\res\\merged\\dev19\\debug\\animator\\card_flip_left_out.xml",
+        "source": "C:\\Users\\Jean\\.android\\build-cache\\8ef127dd674924fefe766a892c4dff92ab37a3d3\\output\\res\\animator\\card_flip_left_out.xml"
+    }
+]

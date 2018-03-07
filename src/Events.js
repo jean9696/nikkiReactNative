@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import { FlatList, StyleSheet, View, Dimensions, BackHandler, Image, Platform } from 'react-native';
-import * as firebase from 'firebase';
+import firebase from 'react-native-firebase';
 import GeoFire from 'geofire';
 import getOr from 'lodash/fp/getOr';
 import find from 'lodash/fp/find';
