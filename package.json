@@ -1,6 +1,6 @@
 {
   "name": "nikki",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "private": true,
   "devDependencies": {
     "jest-expo": "25.0.0",
@@ -31,6 +31,7 @@
     "react": "16.2.0",
     "react-native": "0.52.0",
     "react-native-animatable": "^1.2.4",
-    "react-native-maps": "^0.20.1"
+    "react-native-maps": "^0.20.1",
+    "react-native-popup-dialog": "^0.11.46"
   }
 }

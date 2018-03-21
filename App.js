@@ -1,21 +1,13 @@
 import React, { Component } from 'react';
 import * as firebase from 'firebase';
 import { View, Platform, StatusBar } from 'react-native';
-import { Container, Text, Button, Spinner } from 'native-base';
+import { Text, Button, Spinner } from 'native-base';
 import { Font, Constants, AppLoading, Location, Permissions } from 'expo';
-import Lottie from './src/Lottie';
-import Router from './src/Router';
+import Lottie from './src/components/Lottie';
+import Router from './src/components/Router';
+import firebaseConfig from './firebase.config';
 
-
-firebase.initializeApp({
-  apiKey: 'AIzaSyCvRLFX4OdB0s0Hx5Tyh9RbfMiSDDqskrc',
-  authDomain: 'nikki-8d0a5.firebaseapp.com',
-  databaseURL: 'https://nikki-8d0a5.firebaseio.com',
-  projectId: 'nikki-8d0a5',
-  storageBucket: 'nikki-8d0a5.appspot.com',
-  messagingSenderId: '916258383936',
-});
-
+firebase.initializeApp(firebaseConfig);
 
 export default class App extends Component {
   constructor(props, context) {
@@ -56,7 +48,7 @@ export default class App extends Component {
 
   render() {
     return this.state.ready ? (
-      <View style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight, flex: 1 }}>
+      <View style={{ paddingTop: Platform.OS === 'ios' ? 0 : Constants.statusBarHeight, flex: 1, backgroundColor: 'white' }}>
         {this.state.location ?
           <Router location={this.state.location} /> :
           <View style={{ flex: 1, paddingTop: 100 }}>

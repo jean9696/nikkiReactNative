@@ -7,12 +7,12 @@ import getOr from 'lodash/fp/getOr';
 import find from 'lodash/fp/find';
 import sortBy from 'lodash/fp/sortBy';
 import moment from 'moment';
-import { Content, Header, Title, Left, Right, Body, Button, Icon, Text } from 'native-base';
+import { Header, Title, Left, Right, Body, Button, Icon, Text } from 'native-base';
 import * as Animatable from 'react-native-animatable';
 import Event from './Event';
 import EventDetails from './EventDetails';
-import Lottie from './Lottie';
-import PageSearch from './PageSearch';
+import Lottie from '../components/Lottie';
+import PageSearch from '../pages/PageSearch';
 
 const AnimatableHeader = Animatable.createAnimatableComponent(Header);
 const AnimatableTitle = Animatable.createAnimatableComponent(Title);
@@ -73,10 +73,10 @@ export default class Events extends Component {
   getEvents = () => {
     const geoQuery = this.geoFireEnvents.query({
       center: this.props.location,
-      radius: 1000,
+      radius: 20,
     });
     this.geoQuery = geoQuery.on('key_entered', (key, location, distance) => {
-      firebase.database().ref(`/events/${key}`).once('value').then((snapshot) => {
+      return firebase.database().ref(`/events/${key}`).once('value').then((snapshot) => {
         const event = snapshot.val();
         if (event && moment().diff(moment(event.start_time)) < 0) {
           this.setState({
@@ -89,6 +89,7 @@ export default class Events extends Component {
             },
           });
         }
+        return true;
       });
     });
   }
@@ -189,7 +190,7 @@ export default class Events extends Component {
             <Right />
           </AnimatableHeader> : <Header androidStatusBarColor="#4b28b7" iosBarStyle="light-content" style={styles.header}>
             <Left>
-              <Image source={require('../assets/logo.png')} style={{ height: 40, width: 40 }} />
+              <Image source={require('../../assets/logo.png')} style={{ height: 40, width: 40 }} />
             </Left>
             <Body>
               <Title style={{ color: 'white' }}>{currentCity}</Title>
@@ -199,7 +200,7 @@ export default class Events extends Component {
                 <Icon name="add" style={{ color: 'white' }} />
               </Button>
             </Right>
-          </Header >
+                                </Header >
         }
         <EventDetails
           selectedEvent={selectedEvent}
@@ -207,7 +208,11 @@ export default class Events extends Component {
           coverPosition={coverPosition}
           detailsStyle={detailsStyle} location={this.props.location}
         />
-        <Animatable.View style={{ height: Platform.OS === 'ios' ? height: height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader && Platform.OS === 'ios' ? 'none' : 'flex' }} transition="opacity">
+        <Animatable.View
+          style={{
+ height: Platform.OS === 'ios' ? height : height - 80, zIndex: 1, opacity: eventHeader ? 0 : 1, display: eventHeader && Platform.OS === 'ios' ? 'none' : 'flex',
+}} transition="opacity"
+        >
           {ready ? (
             <AnimatableFlatList
               removeClippedSubviews animation="fadeInUp"
@@ -220,12 +225,15 @@ export default class Events extends Component {
                   <Text style={{ textAlign: 'center', marginTop: 20 }}>
                   Sorry we cannot find events nearby...
                   </Text>
-                 </View>)}
+                  <Text style={{ textAlign: 'center', marginTop: 10 }}>
+                    Help us by adding facebook pages to the Nikki database!
+                  </Text>
+                </View>)}
               renderItem={({ item }) => (<Event item={item} onSelect={this.handleSelect} />)}
             />
           ) : (
             <View style={{
- flex: 1
+ flex: 1,
 }}
             >
               <Lottie style={{ width, height: 150, marginTop: 100 }} name="search" />

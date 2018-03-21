@@ -14,7 +14,8 @@
     },
     "android": {
       "package": "com.dessanedev.nikki",
-      "permissions": ["LOCATION"]
+      "permissions": ["ACCESS_FINE_LOCATION"],
+      "versionCode": 3
     },
     "splash": {
       "image": "./assets/splash.png",

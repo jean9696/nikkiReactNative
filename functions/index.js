@@ -38,9 +38,11 @@ exports.eventsScrapperCron = functions.pubsub.topic('facebookEventsScrapper').on
                     }
                   }
                 );
-                geoFire.set(
-                  event.id, [event.place.location.latitude, event.place.location.longitude]
-                );
+                if (event.place && event.place.location) {
+                  geoFire.set(
+                    event.id, [event.place.location.latitude, event.place.location.longitude]
+                  );
+                }
               });
             }
           }

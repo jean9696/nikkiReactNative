@@ -18,3 +18,4 @@ yarn-error.log*
 /appengine/lib/
 /functions/node_modules/
 .idea/
+firebase.config.js

@@ -5,9 +5,9 @@ import { DangerZone } from 'expo';
 
 const ExpoLottie = DangerZone.Lottie;
 const animations = {
-  search: require("../assets/animations/search.json"), //eslint-disable-line
-  location: require("../assets/animations/location.json"), //eslint-disable-line
-  nothing: require("../assets/animations/nothing.json"), //eslint-disable-line
+  search: require("../../assets/animations/search.json"), //eslint-disable-line
+  location: require("../../assets/animations/location.json"), //eslint-disable-line
+  nothing: require("../../assets/animations/nothing.json"), //eslint-disable-line
 };
 
 export default class Lottie extends Component {

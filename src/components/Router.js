@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Events from './Events';
+import Events from '../events/Events';
 
 export default class Router extends Component {
   constructor(props, context) {

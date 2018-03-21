@@ -5,7 +5,7 @@ import round from 'lodash/fp/round';
 import { Card, CardItem, Text, Left, Body, Right } from 'native-base';
 import getOr from 'lodash/fp/getOr';
 import moment from 'moment';
-import emptyCover from '../assets/emptyCover.png';
+import emptyCover from '../../assets/emptyCover.png';
 
 
 export default class Events extends Component {
