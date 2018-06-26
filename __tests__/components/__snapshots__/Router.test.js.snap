@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing Router should render without crashing 1`] = `
+<Events
+  changeRoute={[Function]}
+  location={
+    Array [
+      1,
+      1,
+    ]
+  }
+/>
+`;

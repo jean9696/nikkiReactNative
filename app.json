@@ -22,6 +22,11 @@
       "backgroundColor": "#6136E8"
     }
   },
+  "infoPlist": {
+    "NSLocationUsageDescription": "Allow us to access your location to find events nearby!",
+    "NSLocationWhenInUseUsageDescription": "Allow us to access your location to find events nearby!",
+    "NSLocationAlwaysUsageDescription": "Allow us to access your location to find events nearby!"
+  },
   "name": "Nikki",
   "displayName": "Nikki"
 }

@@ -25,7 +25,7 @@ export default class App extends Component {
 
   getLocationAsync = () => {
     this.setState({ locationLoading: true });
-    return Permissions.askAsync(Permissions.LOCATION).then(() => Location.getCurrentPositionAsync({}).then((location) => {
+    return Permissions.askAsync(Permissions.LOCATION).then(() => Location.getCurrentPositionAsync({ timeout: 5000 }).then((location) => { //eslint-disable-line
       this.setState({
         location: [location.coords.latitude, location.coords.longitude],
         locationLoading: false,

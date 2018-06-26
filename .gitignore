@@ -19,3 +19,5 @@ yarn-error.log*
 /functions/node_modules/
 .idea/
 firebase.config.js
+coverage/
+__tests__/__snapshots__/
